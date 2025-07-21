@@ -11,7 +11,11 @@ function Home() {
           <Link className='contacts' to='/contacts' style={{textDecoration:"none"}}>Contacts</Link>    
         </div>
       </div>
-      <div className="description"> I am a 3rd year university student from University of Saskatchewan. I am interested in learning machine learning algorithms and data related field.</div>
+      <div className="description"> 
+        <p>I am a 3rd year university student from University of Saskatchewan. I am interested in learning machine learning algorithms and data related field.</p>
+        <img src="pfp.jpg"></img>
+
+      </div>
     </div>
 
   );
