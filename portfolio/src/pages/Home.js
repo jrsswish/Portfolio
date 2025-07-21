@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import pfp from "./images/pfp.jpg"
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
       </div>
       <div className="description"> 
         <p>I am a 3rd year university student from University of Saskatchewan. I am interested in learning machine learning algorithms and data related field.</p>
-        <img src="pfp.jpg"></img>
+        <img src={pfp} alt="" width={128} height={128}></img>
 
       </div>
     </div>
